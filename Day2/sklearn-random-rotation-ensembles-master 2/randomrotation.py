@@ -14,5 +14,5 @@ def random_rotation_matrix(n):
         
 if __name__ == "__main__":
     R = random_rotation_matrix(3)
-    print np.allclose(R.T, np.linalg.inv(R))
-    print np.linalg.det(R)
+    print (np.allclose(R.T, np.linalg.inv(R)))
+    print (np.linalg.det(R))
